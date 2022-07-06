@@ -1,0 +1,128 @@
+*{padding: 0; margin: 0; font-family: 'Inter', sans-serif;}
+.hidden{overflow: hidden; margin:0px auto;}
+.container{width: 1130px;}
+.taka_container{width: 800px;}
+.left{float:left}
+.right{float:right}
+.half{width:45%}
+section{margin: 50px 0px 50px 0px;}
+
+.white{color: white;}
+h1{font-size:65px; font-weight: 700;}
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+h3{font-size:30px; font-weight: 700;}
+
+p{font-size: 18px; font-weight: 400; font-family: 'Poppins', sans-serif;padding-bottom: 16px;}
+
+.header{
+    background-image: url("../img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 174px 0px 174px 0px;
+
+}
+
+.center{text-align: center;}
+.btn {
+    font-size: 20px;
+    font-family: inter;
+    font-weight: 600;
+    background-color: #FF5959;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    line-height: 120px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.today{margin: 80px 0px 80px 0px}
+
+.amountdiv {
+    height: 120px;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+.amount {
+    font-size: 30px;
+    font-weight: 700;
+    width: 116px;
+    background-color: #FAFAFA;
+    padding: 35px 15px 35px 15px;
+    color: #707070;
+    margin: 13px;
+    border-radius: 5px;
+}
+.selected_amount{
+    background-color: #FFEEEE; color: #FF5959; border:1px solid #FF5959;
+}
+
+
+.custom_amount input {
+    border: 0;
+    border-bottom: 1px solid #B3B3B3;
+    width: 655px;
+    height: 30px;
+    text-align: center;
+}
+
+.items-holder{
+    margin-top:50px;
+}
+.plan-item{   
+    width: 301px;
+    float: left;
+    margin-left: 24px;
+    padding: 25px;
+    padding-top: 71px;
+    border-radius: 5px;
+    height:225px;
+}
+.plan-desc{font-size:16px;}   
+
+.item-heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.how_to {
+    margin: 80px 0px 80px 0px;
+}
+
+.left_text {
+    padding: 10px;
+    margin-top: 35px;
+}
+.right_text{
+    margin-top: 35px;
+    padding:10px
+}
+.how_to_bottom {
+    margin-top: 60px;
+}
+
+.plan-item img{width: 50px;}
+.sub-box{background-color:#FFF4D6; padding: 50px 10px 50px 0px; margin: 60px 160px 60px 160px;}
+.sub-box input{background-color:#D9D9D9; padding: 10px;
+    border:0;
+    text-align: left;
+
+}
+.subs_btn{
+    background-color: #FF5959;
+    color:white;
+    padding: 10px;
+    border:0;
+    padding-left: 30px; 
+    padding-right: 30px; 
+    cursor: pointer;
+}
+
+
+footer{background-color: black; padding: 50px 10px 50px 10px}
+.footer-text{font-family: 'Lobster', cursive;font-size: 36px; color: #FF5959;}
+.copyright{ font-family: 'Manrope', sans-serif; font-size: 14px;}
